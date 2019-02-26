@@ -401,6 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325114819}
   - component: {fileID: 325114818}
+  - component: {fileID: 325114820}
   m_Layer: 0
   m_Name: Note Controller
   m_TagString: Untagged
@@ -439,6 +440,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &325114820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325114817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb2398da1a485648a75f0bde78de26d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Notes:
+  - {fileID: 7877922991812387032, guid: f64eaab9e69184b42bc962dcf5fcf80c, type: 3}
+  - {fileID: 5575547702707686595, guid: 2f87a59e78c3be5409323231afd31ac7, type: 3}
+  - {fileID: 5575547702707686595, guid: 2d50c9e24b6db8745859a4022508ca82, type: 3}
+  - {fileID: 5575547702707686595, guid: 9af5d8468e256fa4685e86938669b713, type: 3}
+  noteCount: 10
 --- !u!1 &372536911
 GameObject:
   m_ObjectHideFlags: 0
