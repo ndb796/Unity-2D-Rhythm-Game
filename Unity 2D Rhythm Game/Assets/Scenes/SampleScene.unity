@@ -7540,7 +7540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52214476483b2984a8ecb6191eaf04ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteSpeed: 0.05
+  noteSpeed: 0.1
   scoreUI: {fileID: 1999310713}
   comboUI: {fileID: 1251212395}
   judgeUI: {fileID: 139562581}
@@ -7549,6 +7549,7 @@ MonoBehaviour:
   - {fileID: 336522274}
   - {fileID: 1005977190}
   - {fileID: 320386691}
+  music: 1
 --- !u!4 &1829834607
 Transform:
   m_ObjectHideFlags: 0

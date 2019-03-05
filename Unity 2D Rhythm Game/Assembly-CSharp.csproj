@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\NoteBehavior.cs" />
     <Compile Include="Assets\Scripts\NoteController.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
+    <None Include="Assets\Resources\Beats\1.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Unity Rhythm Game Project/Project/Unity-2D-Rhythm-Game/Unity 2D Rhythm Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
