@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BackgroundBehavior.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameResultManager.cs" />
     <Compile Include="Assets\Scripts\NoteBehavior.cs" />
     <Compile Include="Assets\Scripts\NoteController.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
+    <Compile Include="Assets\Scripts\PlayerInformation.cs" />
     <None Include="Assets\Resources\Beats\1.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Unity Rhythm Game Project/Project/Unity-2D-Rhythm-Game/Unity 2D Rhythm Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

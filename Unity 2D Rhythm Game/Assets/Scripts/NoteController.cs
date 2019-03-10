@@ -98,6 +98,10 @@ public class NoteController : MonoBehaviour
 
     void GameResult()
     {
+        PlayerInformation.maxCombo = GameManager.instance.maxCombo;
+        PlayerInformation.score = GameManager.instance.score;
+        PlayerInformation.musicTitle = musicTitle;
+        PlayerInformation.musicArtist = musicArtist;
         SceneManager.LoadScene("GameResultScene");
     }
     
